@@ -1,0 +1,122 @@
+html,body{
+	max-width: 640px;
+	background: url(../images/background.png) no-repeat;
+	background-size: 100%;
+	margin:0 auto;
+	
+}
+img{
+	// width: 26%;
+	// height: 100%;
+}
+.car-1{
+	position: absolute;
+	top: 6.25%;
+	width: 15.25%;
+	// height: 13.28125%;
+	animation: car 2s linear 0s 1 forwards;
+}
+.house-4{
+	position: absolute;
+	left: 30%;
+	top: 5%;
+	width:36.56%;
+}
+.house-5{
+	position: absolute;
+	left: 85.18%;
+	top: 5%;
+	width:15.46%;
+}
+.house-2{
+	position: absolute;
+	left: 62%;
+	top: -2%;
+	width: 31%;
+	height: 33%;
+}
+.house-3{
+	position: absolute;
+	left: 60%;
+	top: 7.8%;
+	width: 28%;
+	transform-origin: 50% 0%;
+	animation: house 1s linear 0s infinite alternate;
+}
+.house-1{
+	position: absolute;
+	left: 60%;
+	top: 8.8%;
+	width: 28%;
+	transform-origin: 50% 0%;
+	animation: house 1s linear 0s infinite alternate;
+}
+.logo-1{
+	position: absolute;
+	left: 10%;
+	top: 37.656%;
+	width: 79%;
+}
+.niu-1{
+	position: absolute;
+	left: 16.25%;
+	top: 28%;
+	width: 26.875%;
+	animation: niu 1.5s 1;
+}
+.niu-2{
+	position: absolute;
+	left: 57.34%;
+	top: 28%;
+	width: 25.218%;
+	animation: niu 1.5s 1;
+}
+.niu-3{
+	position: absolute;
+	left: 12.34%;
+	top: 56%;
+	width: 25.218%;
+	animation: niu 1.5s 1;
+}
+.niu-4{
+	position: absolute;
+	left: 66.71%;
+	top: 56%;
+	width: 25.218%;
+	animation: niu 1.5s 1;
+}
+.begin{
+	position: absolute;
+	left: 20%;
+	top: 75%;
+	width: 57.34%;
+}
+@keyframes niu {
+	from { 
+		width:10%;
+		transform: rotate(0deg);
+	 }
+	to { 
+		width:25.218%;
+		transform: rotate(360deg);
+	 }
+}
+@keyframes house {
+	from { 
+		transform: rotate(30deg);
+	 }
+	to { 
+		transform: rotate(-30deg);
+	 }
+}
+@keyframes car {
+	from { 
+		transform: translate(0%,0%);
+	 }
+	 50%{
+	 	transform: translate(36.625%,89.71%);
+	 }
+	to { 
+		transform: translate(259.5%,128.46%);
+	 }
+}
